@@ -81,7 +81,7 @@ calc.addEventListener("click", () =>{
     console.log("Take home",(income()-((totaltax*0.04)+totaltax)))  
     
     
-    tax.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((totaltax*0.04)+totaltax) .toFixed(1)
+    tax.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((totaltax*0.04)+totaltax) .toFixed(1)
     // tax.style.margin="205px"
     tax.style.fontSize="28px"
     tax.style.color="red"
@@ -89,7 +89,7 @@ calc.addEventListener("click", () =>{
     
     tax_oput.appendChild(tax)
     
-    CESS.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((totaltax*0.04)).toFixed(1)
+    CESS.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((totaltax*0.04)).toFixed(1)
     // CESS.style.margin="236px"
     CESS.style.fontSize="28px"
     CESS.style.color="red"
