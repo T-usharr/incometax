@@ -5,6 +5,7 @@
 
 body{
  background-color:rgba(219, 223, 169, 0.5);
+ text-align: center;
 }
 .mainn{
     
@@ -17,6 +18,7 @@ body{
     width: auto;
     height: auto;
     display:inline-block;
+    text-align: left;
   
 }
 #H3{
@@ -36,8 +38,8 @@ body{
 
 .inpbox{
     font-size: 20px;
-    height: 45px;
-    width: 400px;
+    height: 2rem;
+    width: 16rem;
     border-radius: 15px;
     margin:10px;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
