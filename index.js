@@ -81,22 +81,22 @@ calc.addEventListener("click", () =>{
     console.log("Take home",(income()-((totaltax*0.04)+totaltax)))  
     
     
-    tax.innerHTML="₹ "+((totaltax*0.04)+totaltax)
-    tax.style.margin="205px"
+    tax.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((totaltax*0.04)+totaltax) .toFixed(1)
+    // tax.style.margin="205px"
     tax.style.fontSize="28px"
     tax.style.color="red"
 
     
     tax_oput.appendChild(tax)
     
-    CESS.innerHTML="₹ "+((totaltax*0.04))
-    CESS.style.margin="236px"
+    CESS.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((totaltax*0.04)).toFixed(1)
+    // CESS.style.margin="236px"
     CESS.style.fontSize="28px"
     CESS.style.color="red"
     cess_oput.appendChild(CESS)
     
-    Take_home.innerHTML="₹ "+(income()-((totaltax*0.04)+totaltax))
-    Take_home.style.margin="116px"
+    Take_home.innerHTML="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹"+((income()-((totaltax*0.04)+totaltax))).toFixed(1)
+    // Take_home.style.margin=""
     Take_home.style.fontSize="28px"
     Take_home.style.color="teal"
     salary_oput.appendChild(Take_home)
